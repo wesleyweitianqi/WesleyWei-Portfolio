@@ -18,9 +18,8 @@ import {
     jobit,
     tripguide,
     threejs, starbucks, meta, tesla,
-
 } from "../assets";
-
+import sample from '../assets/sample.png'
 export const navLinks = [
     {
         id: "about",
@@ -268,6 +267,36 @@ const projects = [
         ],
         image: tripguide,
         source_code_link: "https://cpdformula.com/custom-package?hours=20/",
+    },
+    {
+        name: "DashBoard Project",
+        description:
+            "Created the DashBoard platform SPA by using React, Syncfusion and tailwind to display a dashboard for graphs \n" +
+            "and displaying customers employees budgets and income charts in different ways with responsive design.",
+        tags: [
+            {
+                name: "react.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "red-text-gradient",
+            },
+            {
+                name: "syncfusion",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: sample,
+        source_code_link: "https://github.com/abpoooo/dashborad_project/",
     },
 ];
 
