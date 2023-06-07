@@ -9,6 +9,7 @@ import {fadeIn, textVariant} from "../utils/motion.js";
 
 const Works = () => {
 
+    // eslint-disable-next-line react/prop-types
     const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
         return (
             <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>

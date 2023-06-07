@@ -62,7 +62,7 @@ const Skills = () => {
         'React'
       ]
 
-      const randomWords = words[Math.floor(Math.random() * words.length)]
+      // const randomWords = words[Math.floor(Math.random() * words.length)]
       const temp = []
       const spherical = new THREE.Spherical()
       const phiSpan = Math.PI / (count + 1)
